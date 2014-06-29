@@ -9,7 +9,7 @@ exports.d3 = function(n) {
 	return S.substring(S.length-3);
 }
 exports.dp3 = function(n) {
-	var S = (Math.round(n*1000)/1000);
+	var S = (Math.round(n*100)/100);
 	return S;
 };
 

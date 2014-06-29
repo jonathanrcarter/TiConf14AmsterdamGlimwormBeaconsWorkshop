@@ -94,6 +94,7 @@ function fn(obj) {
 				var opv = Math.min(4,Number(b.d));		//	0.6 = 0.6
 				var opv2 = 4 - opv;						// 0.6 = 3.4
 				var op = (opv2/8);		// always at least 0.5
+				var op = Math.max(op,0.2);
 
 				squares[x][y].width = SZZ;
 				squares[x][y].height = SZZ;
