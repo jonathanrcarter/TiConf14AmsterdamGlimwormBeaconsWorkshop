@@ -9,14 +9,14 @@ function fn(obj) {
 		navBarHidden : false,
 		title : "Single Button App",
 		navTintColor : "#ffffff",
-		barColor : "#F19539",
+		barColor : "#FA9B1E",
 		backgroundColor : "#eeeeee",
 		backgroundImage : "/images/bg.jpg",
 		top : 0
  	});
 
  	var r = Ti.UI.createButton({
- 		title : "start"
+ 		title : "START"
  	});
  	self.rightNavButton = r;
 	r.addEventListener("click", function() {

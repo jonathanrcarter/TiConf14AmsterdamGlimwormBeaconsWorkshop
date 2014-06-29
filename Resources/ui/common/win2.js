@@ -9,7 +9,7 @@ function fn(obj) {
 		navBarHidden : false,
 		title : "Ranging Demo",
 		navTintColor : "#ffffff",
-		barColor : "#F19539",
+		barColor : "#FA9B1E",
 		backgroundColor : "#eeeeee",
 		top : 0
  	});

@@ -9,7 +9,7 @@ function fn(obj) {
 		navBarHidden : false,
 		title : "Indoor Navigation Demo",
 		navTintColor : "#ffffff",
-		barColor : "#F19539",
+		barColor : "#FA9B1E",
 		backgroundColor : "#eeeeee",
 		top : 0
  	});
@@ -19,6 +19,12 @@ function fn(obj) {
 	var THIS = this;
 	var _ts = beaconSingleton.ts();
 	
+	self.add(Ti.UI.createImageView({
+		width : Ti.UI.FILL,
+		image : "/images/wm.png",
+		top : 0
+	}));
+
 
 	var view = Ti.UI.createView({
 		width : Ti.UI.FILL,
@@ -26,6 +32,8 @@ function fn(obj) {
 		top : 0
 	});
 	self.add(view);
+
+
 
 	var squares = [];
 	var max_x = 0;
